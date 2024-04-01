@@ -13,8 +13,12 @@
 padding: 30px;
 }
 h1{
- text-align: center;
+ .titulo-principal{
+  padding-left:20px;
 }
+ .titulo-secundário {
+  text-align: center;
+ }
  background: # CCCCCC
 }
 p{
