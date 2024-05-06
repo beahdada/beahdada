@@ -1,41 +1,61 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Produtos - Barbearia Alura</title>
+* {
+  margin: 0;
+  padding: 0;
 
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="produtos.css">
-	</head>
-	<body>
-		<header>
-			<div class="caixa">
-				<h1><img src="logo.png"></h1>
+<body>{
+ 
+}
 
-				<nav>
-					<ul>
-						<li><a href="home.html">Home</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+#banner {
+  width: 100%;
+}
+ 
 
-		<main>
-  <form>
-    <label for= "nomesobrenome">Nome e Sobrenome</label>
-    <input type= "text" id= "nomesobrenome">
-    <label for= "email">Email</label>
-    <input type= "text" id= "email">
-    <label> for= "telefone">Telefone</label>
-    <input type= "text" id= "telefone">
-    <input type= "submit" value= "enviar formulario">
-  </form>
-</main>
-		<footer>
-			<img src="logo-branco.png">
-			<p class="copyright">&copy; Alanna 2B 2024</p>
-		</footer>
-	</body>
-</html>
+.principal {
+  background: #cccccc;
+  padding: 30px;
+}
+
+.titulo-principal {
+  padding-left: 20px;
+}
+
+.titulo-secundario {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+#missão {
+front-size: 30px;
+
+em strong {
+  color: blue;
+}
+
+.itens{
+  font-style: italic;
+}
+
+.beneficios {
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imagem-beneficios{
+  width: 50%;
+}
+	
