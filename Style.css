@@ -1,11 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-
-<body>{
- 
 }
-
 #banner {
   width: 100%;
 }
@@ -29,8 +25,8 @@ p {
 }
 
 #missão {
-front-size: 30px;
-
+font-size: 30px;
+}
 em strong {
   color: blue;
 }
@@ -58,4 +54,3 @@ ul {
 .imagem-beneficios{
   width: 50%;
 }
-	
