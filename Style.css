@@ -28,7 +28,7 @@ p {
 font-size: 30px;
 }
 em strong {
-  color: blue;
+  color: #033dfc;
 }
 
 .itens{
@@ -36,7 +36,7 @@ em strong {
 }
 
 .beneficios {
-  background: #FFFFFF;
+  background: #033dfc;
   padding: 20px;
 }
 
