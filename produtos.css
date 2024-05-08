@@ -8,7 +8,7 @@ header {
     margin: 0 auto;
 }
 
-nav{
+nav {
     position: absolute;
     top: 110px;
     right: 0;
@@ -51,7 +51,14 @@ nav a:hover {
 }
  .produtos li:hover{
      font-size: 34px
+     border-color: #823101
  }
+  .produtos li:active {
+      font-size: 34px;
+  }
+.produtos li:hover h2 {
+    font-size 34px;
+}
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
