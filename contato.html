@@ -31,14 +31,15 @@
         <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx"> 
 	       <label for= "menssagem">mensagem</label>
     <textarea cols= "70" rows="10" id= "menssagem" class="imput-padrao"></textarea>
-	  <div>
-    <p>Como prefere o nosso contato?</p>
+	  <fildset>
+    <legend>Como prefere o nosso contato?</legend>
     <label for="radio-email">
         <input type="radio" name="contato" value="email" id="radio-email">
         Email
     </label>
-		  <div>
-    <p>Qual horário prefere ser atendido?</p>
+	  </fildset>
+	  <div>
+    <legend>Qual horário prefere ser atendido?</legend>
     <select>
         <option>Manhã</option>
         <option>Tarde</option>
@@ -46,7 +47,7 @@
     </select>
 </div>
 		  <label class="checkbox">
-    <input type="checkbox">
+    <input type="submit" value="enviar form" class="enviar">
     Gostaria de receber nossas novidades por email?
 </label>
 
