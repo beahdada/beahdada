@@ -123,7 +123,7 @@ form submit {
 }
 .enviar:hover{
     background: darkorange;
-    transform: scale(12);
+    transform: scale(1.2);
 }
 table {
     margin: 20px 0 40px;
