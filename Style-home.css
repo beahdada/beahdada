@@ -2,55 +2,56 @@
   margin: 0;
   padding: 0;
 }
-#banner {
+
+body {
+}
+#banner{
   width: 100%;
 }
- 
 
 .principal {
-  background: #cccccc;
-  padding: 30px;
-}
+    background: #CCCCCC; 
+    padding:30px;
+  }
 
 .titulo-principal {
-  padding-left: 20px;
-}
+    padding-left: 20px
+  }
 
-.titulo-secundario {
-  text-align: center;
-}
+titulo-secundario {
+    text-align: center;
+  }
 
 p {
-  text-align: center;
-}
+    text-align: center;
+  }
 
-#missão {
-font-size: 30px;
+#missao {
+    font-size:20px
 }
 em strong {
-  color: #033dfc;
+    font-size: 30px;
+    color: purple;
+    
 }
 
-.itens{
-  font-style: italic;
-}
+.itens {
+      font-style: italic;
+    }
 
 .beneficios {
-  background: #033dfc;
-  padding: 20px;
-}
-
-h2 {
+  background: #FFFFFF;
+  padding: 20px;  
   text-align: center;
-}
+  }
 
 ul {
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
-}
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+  }
 
-.imagem-beneficios{
-  width: 50%;
-}
+.imagem-beneficios {
+    width: 50%
+  }
