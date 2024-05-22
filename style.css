@@ -114,15 +114,15 @@ form submit {
     padding: 15px 0;
     background: orange;
     color: white;
-    font-weigh: bold;
+    font-weight: bold;
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    transitions: 1s all;
+    transition: 1s all;
     cursor: ponter;
 }
 .enviar:hover{
-    backroud: darkorange;
+    background: darkorange;
     transform: scale(12);
 }
 table {
